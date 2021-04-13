@@ -101,7 +101,7 @@ deleteButton.addEventListener('click',  ()=>{
     }else{
         if(confirm("Are you sure you want to delete")){
             findItem(item, cart).noItems = 0;
-            calculateTotal(cart)
+            calculateTotal(cart);
         }
         
     }
@@ -116,7 +116,7 @@ addButton.addEventListener('click',  ()=>{
         findItem(item, cart).noItems + 1;
     }
     
-    calculateTotal(cart)
+    calculateTotal(cart);
 
 });
 }
