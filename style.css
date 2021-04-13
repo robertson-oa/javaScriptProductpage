@@ -1,3 +1,4 @@
+
 .navbar {
     overflow: hidden;
     background-color:#0b3c5c;
@@ -24,8 +25,14 @@
   } 
 
   .image{
-      margin-top: 20px;
-      box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.2);
+  }
+
+  .image:hover{
+      cursor: pointer;
+      margin-left: 20px;
   }
 
 .card{
@@ -43,7 +50,7 @@
     top: 20px;
 }
 
-#Delete-product{
+.Delete-product{
     text-decoration: none;
     background-color: red;
     color: whitesmoke;
@@ -59,4 +66,14 @@
     margin-bottom: 15 px;
     font-weight: 500;
     font-size: larger;
+}
+
+.navbar a:nth-child(12){
+  margin-left: 0;
+  padding: 14px 0 0 0;
+}
+
+.navbar a:nth-child(11){
+  margin-right: 0;
+ 
 }
